@@ -28,6 +28,7 @@ RUN set -ex \
 		autoconf \
 		build-essential \
 		zlib1g-dev \
+		openssl \
 	' \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends $buildDeps \
