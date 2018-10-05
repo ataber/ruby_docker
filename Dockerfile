@@ -2,8 +2,6 @@ FROM ubuntu:bionic
 
 ## Copy-pasted from https://github.com/docker-library/ruby/blob/ccacdf5eb9e69b6f249a890c87621679410e7d74/2.5/stretch/Dockerfile
 
-FROM buildpack-deps:stretch
-
 # skip installing gem documentation
 RUN mkdir -p /usr/local/etc \
 	&& { \
