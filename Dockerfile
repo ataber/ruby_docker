@@ -26,6 +26,7 @@ RUN set -ex \
 		ruby \
 		wget \
 		autoconf \
+		build-essential \
 	' \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends $buildDeps \
