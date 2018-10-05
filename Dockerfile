@@ -24,11 +24,6 @@ RUN set -ex \
 		dpkg-dev \
 		libgdbm-dev \
 		ruby \
-		wget \
-		autoconf \
-		build-essential \
-		zlib1g-dev \
-		openssl \
 	' \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends $buildDeps \
