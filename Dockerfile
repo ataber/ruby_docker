@@ -27,6 +27,7 @@ RUN set -ex \
 		wget \
 		autoconf \
 		build-essential \
+		zlib1g-dev \
 	' \
 	&& apt-get update \
 	&& apt-get install -y --no-install-recommends $buildDeps \
